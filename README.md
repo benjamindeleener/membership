@@ -4,8 +4,8 @@ This repository contains the membership addons with modifications for PolyFab.
 Right now, it only adds qualifications for each member.
 Here are some features that would be interesting to add:
 
-* [x] Member should have qualifications for a set of machines.
-      A qualification expires after a certain amount of time.
+* [ ] Member should have qualifications for a set of machines.
+      A qualification expires after a certain amount of time. After expiration, a new qualification for the member can be created and appears as a new line in the list of qualifications.
 * [ ] Membership product should be generics.
       An administrator would not need to create a membership product for each time a member buys a membership.
       Only the duration and the cost of the membership product should be specified.
