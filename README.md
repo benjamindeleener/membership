@@ -10,7 +10,7 @@ Here are some features that would be interesting to add:
       An administrator would not need to create a membership product for each time a member buys a membership.
       Only the duration and the cost of the membership product should be specified.
       The validation of the membership for the user would be computed on the fly.
-* [ ] Member should be able to check in.
+* [ ] Member should be able to check in. The application for check-in should be a web-based API that look into the database and display appropriate informations.
       Each time a member checks in, we could show the status of his membership and his qualifications, and a list of machines he can use.
 * [ ] Administrator should be able to see an history of the all the check-ins.
 
