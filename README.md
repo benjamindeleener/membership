@@ -6,12 +6,12 @@ Here are some features that would be interesting to add:
 
 * [ ] Member should have qualifications for a set of machines.
       A qualification expires after a certain amount of time. After expiration, a new qualification for the member can be created and appears as a new line in the list of qualifications.
-* [ ] Membership product should be generics.
+* [x] Membership product should be generics.
       An administrator would not need to create a membership product for each time a member buys a membership.
       Only the duration and the cost of the membership product should be specified.
       The validation of the membership for the user would be computed on the fly.
 * [ ] Member should be able to check in.
-      Each time a member checks in, we could show the status of his membership and his qualifications.
+      Each time a member checks in, we could show the status of his membership and his qualifications, and a list of machines he can use.
 * [ ] Administrator should be able to see an history of the all the check-ins.
 
 Installation
