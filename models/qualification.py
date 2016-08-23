@@ -11,13 +11,13 @@ _logger = logging.getLogger(__name__)
 class Partner(models.Model):
     _inherit = 'res.partner'
     
-    qualification_lines = fields.One2many('membership.qualification_line', 'partner', string='Qualification')
+    qualification_lines = fields.Many2many('membership.qualification_line', 'partner', string='Qualification')
 
 class Qualification(models.Model):
     _name = 'membership.qualification'
     
     name = fields.Char(string='Identifier')
-    machines = fields.Many2many('product.product', string='Applications Machines')
+    machines = fields.Many2many(comodel_name='hr.equipment', relation='equipment_qualification', column1='qualification_id', column2='equipment_id', string='Machines')
     duration = fields.Integer(string='Duration (month)')
     
 class QualificationLine(models.Model):
