@@ -53,7 +53,7 @@
             <field name="target">new</field>
         </record>
 
-        <act_window name="Invoice Membership"
+        <act_window name="Qualification line addition"
             res_model="membership.qualification_line"
             src_model="res.partner"
             multi="True"
