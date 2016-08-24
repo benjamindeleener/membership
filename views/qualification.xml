@@ -36,7 +36,7 @@
                 <form string="Add Qualification">
                     <group>
                         <field name="qualification" widget="selection" required="1"/>
-                        <field name="qualification_date_from" invisible="1"/>
+                        <field name="qualification_date_from"/>
                         <field name="qualification_date_to" invisible="1"/>
                         <field name="valid" invisible="1"/>
                     </group>
