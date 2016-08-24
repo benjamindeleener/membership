@@ -52,14 +52,14 @@
             <field name="view_id" ref="action_qualification_line_form"/>
             <field name="target">new</field>
         </record>
-        
+
         <act_window name="Invoice Membership"
             res_model="membership.qualification_line"
             src_model="res.partner"
             multi="True"
             key2="client_action_multi"
             view_mode="form"
-            id="action_qualification_line_form"/>
+            id="action_qualification_line_view"/>
 
         <record model="ir.ui.view" id="view_qualification_form">
             <field name="name">res.partner.form.inherit</field>
